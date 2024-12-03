@@ -1,18 +1,18 @@
 ## Setup and Running the Application
 
 ### Backend Setup
-bash
+
 ```
 cd backend
-npm install
+npm i
 npm run start
 ```
 
 ### Frontend Setup
 
-bash```
+```
 cd frontend
-npm install
+npm i
 npm run start
 ```
 
