@@ -18,7 +18,7 @@ app.use(cors());
 // Login route - Redirects the user to Spotify's authorization page
 app.get('/login', function (req, res) {
   const state = generateRandomString(16); // Protect against CSRF attacks
-  const scope = 'user-read-private user-read-email';
+  const scope = 'user-read-private user-read-email user-read-recently-played';
 
   const authUrl =
     'https://accounts.spotify.com/authorize?' +

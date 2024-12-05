@@ -105,3 +105,34 @@
 .logout-button:hover {
   background-color: #ff4d5a;
 }
+
+/* Calculate Mood button */
+.calculate-mood-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #1db954;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-mood-button:hover {
+  background-color: #1ed760;
+}
+
+.calculate-mood-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+/* Mood result */
+.mood-result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
