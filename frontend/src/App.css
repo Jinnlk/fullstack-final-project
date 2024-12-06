@@ -1,138 +1,30 @@
-/* General container styles */
-.page-container {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1db954;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(135deg, #1db954, #191414);
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.nav-link {
   color: white;
-  font-family: 'Arial', sans-serif;
-}
-
-.content-container {
-  text-align: center;
-  max-width: 500px;
-  padding: 20px;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-}
-
-/* Header styles */
-.header .title {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-.header .subtitle {
-  font-size: 1.2rem;
-  color: #b3b3b3;
-}
-
-/* Spotify button */
-.spotify-button {
-  padding: 15px 30px;
-  margin-top: 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: white;
-  background-color: #1db954;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.spotify-button:hover {
-  background-color: #1ed760;
-}
-
-/* Profile container styles */
-.profile-container {
-  margin-top: 20px;
-  background-color: #282828;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.profile-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.profile-image {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 15px;
-  border: 2px solid #1db954;
-}
-
-.profile-name {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.profile-info {
-  font-size: 1rem;
-  color: #b3b3b3;
-}
-
-.profile-info a {
-  color: #1db954;
   text-decoration: none;
-  font-weight: bold;
 }
 
-.profile-info a:hover {
-  text-decoration: underline;
-}
-/* Logout button styles */
-.logout-button {
-  padding: 10px 20px;
-  margin-top: 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: white;
-  background-color: #e63946;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.home-container, .mood-container, .about-container {
+  text-align: center;
+  padding: 2rem;
 }
 
-.logout-button:hover {
-  background-color: #ff4d5a;
-}
-
-/* Calculate Mood button */
-.calculate-mood-button {
-  margin-top: 20px;
-  padding: 15px 30px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: white;
+.spotify-button, .mood-button {
   background-color: #1db954;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.calculate-mood-button:hover {
-  background-color: #1ed760;
-}
-
-.calculate-mood-button:disabled {
-  background-color: #555;
-  cursor: not-allowed;
-}
-
-/* Mood result */
-.mood-result {
-  margin-top: 20px;
-  font-size: 1.5rem;
-  font-weight: bold;
   color: white;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
 }

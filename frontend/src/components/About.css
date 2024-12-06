@@ -1,0 +1,39 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #121212; /* Dark Spotify-like background */
+    font-family: 'Arial', sans-serif;
+    color: #b3b3b3; /* Light gray text */
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 2rem;
+    min-height: 100vh;
+  }
+  
+  /* Heading Styling */
+  .about-heading {
+    font-size: 4rem; /* Larger font for heading */
+    font-weight: bold;
+    color: #ffffff; /* Spotify green */
+    margin-bottom: 2rem;
+  }
+  
+  /* Text Styling */
+  .about-text {
+    font-size: 1.5rem; /* Larger and clean font for text */
+    color: #b3b3b3;
+    max-width: 800px;
+    line-height: 1.8; /* Improved readability */
+  }
+  

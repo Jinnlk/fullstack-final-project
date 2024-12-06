@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #1db954;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  

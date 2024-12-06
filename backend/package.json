@@ -18,6 +18,7 @@
     "mongoose": "^8.8.3",
     "mysql2": "^3.11.5",
     "querystring": "^0.2.1",
+    "react-router-dom": "^7.0.2",
     "request": "^2.88.2",
     "sequelize": "^6.37.5"
   },

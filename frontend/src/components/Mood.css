@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212; /* Dark Spotify-like background */
+  font-family: 'Arial', sans-serif;
+  color: #b3b3b3; /* Light gray text */
+}
+
+.mood-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Profile Section */
+.profile-section {
+  margin-bottom: 2rem;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover;
+  border: 5px solid #1db954; /* Green border */
+}
+
+/* Mood Details */
+.mood-details {
+  max-width: 600px;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  color: #ffffff; /* Brighter text for emphasis */
+  margin-bottom: 1rem;
+}
+
+.mood-text {
+  font-size: 1.5rem;
+  color: #b3b3b3;
+  margin-bottom: 2rem;
+}
+
+/* Button Styling */
+.mood-button {
+  background-color: #1db954; /* Spotify green */
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px; /* Rounded button */
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mood-button:hover {
+  background-color: #1aa34a; /* Slightly darker green */
+}
+
+/* Unauthenticated Message */
+.unauthenticated-message {
+  text-align: center;
+  padding: 2rem;
+}
+
+.unauthenticated-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff; /* White for visibility */
+  margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .welcome-text,
+  .unauthenticated-text {
+    font-size: 1.5rem;
+  }
+
+  .mood-text {
+    font-size: 1.2rem;
+  }
+
+  .mood-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
