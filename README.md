@@ -14,3 +14,8 @@ Melodify is a music discovery and playlist creation app that helps users find pe
 - **Frontend**: React.js, JavaScript, HTML, CSS
 - **Music API**: [Spotify API](https://developer.spotify.com/)
 - **Database**: PostgreSQL
+
+## Demo
+
+https://github.com/user-attachments/assets/bd169e36-09c8-4fc0-9763-44634bdc2152
+
